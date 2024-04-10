@@ -1,0 +1,14 @@
+.carosello-container *{
+    margin: 2.5dvh;
+}
+
+.carosello-bottom{
+    border: 2px solid black;
+    width: 23dvh;
+    height: 8dvh;
+    border-radius: 15px;
+}
+
+.carosello-bottom * {
+    margin: 2dvh;
+}
