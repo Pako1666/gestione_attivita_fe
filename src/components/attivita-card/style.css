@@ -1,0 +1,44 @@
+.attivita-card{
+    border:2px solid black;
+    width: 35dvh;
+    height: 30dvh;
+    padding: 1dvh;
+    margin-left: 5%;
+    
+}
+
+.att-card-header{
+    border:2px solid black;
+    width: 35dvh;
+    padding: 1dvh;
+    margin-left: 5%;
+    background-color: blue;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.att-card-container{
+    width: 35dvh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-bottom: 5dvh;
+    font-size: 35px;
+    height: auto;
+}
+
+@media only screen and (max-width:768px){
+    .attivita-card{
+        margin-bottom: 15%;
+    }
+    
+    .att-card-container{
+        font-size: 25px;
+    }
+
+   .att-card-header{
+        font-size: 25px; 
+   }
+}

@@ -1,0 +1,23 @@
+
+
+
+.carosello-attivita{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:768px){
+  .carosello-attivita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+}
